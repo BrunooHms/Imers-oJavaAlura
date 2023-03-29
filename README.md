@@ -1,18 +1,17 @@
-## Getting Started
+# Imersão Java Alura
+:bangbang: Aula 1 - Nessa primeira foi consumido uma API pública de filmes, do site IMDB 	:bangbang:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+:white_check_mark: Alguns aprendizados dessa Primeira aula :white_check_mark:
 
-## Folder Structure
+:heavy_check_mark: Fizemos uma conexão com a API atraves do pacote  java.net.http.
 
-The workspace contains two folders by default, where:
+:heavy_check_mark: Separamos os dados que nos interessavam (Título , Poster do filme e classificação)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+:heavy_check_mark: Exibimos e manipulamos os dados para que pudessem ter um visual mais agradável.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+![Aula1 alura, imersão Java](https://user-images.githubusercontent.com/113738086/228403694-0fe595b6-ffd9-4864-83bf-5516bfa11efb.png)
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
