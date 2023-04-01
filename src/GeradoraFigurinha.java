@@ -18,23 +18,20 @@ public class GeradoraFigurinha {
 
     public void cria(InputStream inputStream, String nomeArquivo) throws Exception {
 
-        // Leitura da imagem
-        //InputStream inputStream = new FileInputStream(new File("entrada/filme.jpg.jpg"));
-        //InputStream inputStream = new URL("https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopularTVs_1.jpg").openStream();
         BufferedImage imagemOriginal = ImageIO.read(inputStream);
 
         // Criar nova imagem em memória com tranasparência e com tamanho novo
         int largura = imagemOriginal.getWidth();
         int altura = imagemOriginal.getHeight();
         int novaAltura = altura + 200;
-        BufferedImage novaImagem = new BufferedImage(largura , novaAltura, BufferedImage.TRANSLUCENT);
+        BufferedImage novaImagem = new BufferedImage(largura, novaAltura, BufferedImage.TRANSLUCENT);
 
         // Copiar a imagem original pra nova imagem (em memória)
         Graphics2D graphics = (Graphics2D) novaImagem.getGraphics();
-        graphics.drawImage(imagemOriginal, 0 , 0 , null );
+        graphics.drawImage(imagemOriginal, 0, 0, null);
 
-        //Configurar a fonte
-        var fonte = new Font("Impact", Font.BOLD , 85);
+        // Configurar a fonte
+        var fonte = new Font("Impact", Font.BOLD, 85);
         graphics.setColor(Color.RED);
         graphics.setFont(fonte);
 
@@ -62,13 +59,9 @@ public class GeradoraFigurinha {
         graphics.draw(outline);
         graphics.setClip(outline);
 
-
         // Escrever a nova imagem em um arquivo
         ImageIO.write(novaImagem, "png", new File(nomeArquivo));
 
-   }
+    }
 
-   
-
-    
 }
