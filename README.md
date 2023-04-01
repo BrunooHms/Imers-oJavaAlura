@@ -32,6 +32,31 @@
 ![Stranger Things](https://user-images.githubusercontent.com/113738086/229005474-18575bae-fbd0-4465-9cb4-7a27f34a6f6c.png)
 
 
+:bangbang: AULA 3 - A melhor aula em questão de aprendizado :bangbang:
+
+:white_check_mark: Assuntos Abordados :white_check_mark:
+
+:heavy_check_mark: Fizemos um código mais limpo, passando os codigos da MAIN em si, para classes fora dela. :heavy_check_mark:
+
+:heavy_check_mark: Conseguimos deixar o codigo mais legivel :heavy_check_mark:
+
+:heavy_check_mark: Usamos de polimorfismo, encapsulamento dentre varias outras boa praticas :heavy_check_mark:
+
+:heavy_check_mark: Deixamos nosso codigo mais reutilizavel para qualquer que seja a API usada :heavy_check_mark:
+
+:heavy_check_mark: Quebramos nosso código em varias partes menores, para assim deixarmos ele mais facil de ser reutilizado :heavy_check_mark:
+
+:heavy_check_mark: E com toda certeza, essa aplicação pode ser usada de varias maneiras, por varias pessoas e propositos diferentes :heavy_check_mark:
+
+
+![Codigo limpo](https://user-images.githubusercontent.com/113738086/229265345-fcb3af81-44ab-4032-9d99-d55a68368c80.png)
+
+
+
+
+
+
+
 
 
 
